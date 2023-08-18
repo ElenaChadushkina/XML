@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<Bug-ID>01</Bug-ID>
+	<Title>Ошибка авторизации пользователя при вводе валидного логина и пароля</Title>
+	<Project>Сайт Форум Хомячки</Project>
+	<STR>1. Открыть страницу авторизации https://forumhomyachki.com/authorization</STR>
+	<STR>2. Ввести валидный логин и пароль (test@com.ru, 123456)</STR>
+	<STR>3. Нажать кнопку 'Войти'</STR>
+	<Actual result>Система отображает сообщение об ошибке 'При входе произошла ошибка, попробуйте позднее' </Actual result>
+	<Expected result>Авторизация прошла успешно, произошел переход в раздел 'Мой профиль'</Expected result>
+	<Environment>
+		<OS>Windows 10 PRO 64-bit operating system, x64 processor</OS>
+		<Browser>Microsoft Edge Версия 115.0.1901.200 (Официальная сборка) (64-разрядная версия)</Browser>
+	</Environment>
+	<Severity>Critical</Severity>
+	<Priority>High</Priority>
+	<Status>New</Status>
+	<Author>Чадушкина Елена</Author>
+</root>
