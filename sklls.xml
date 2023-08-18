@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<Basic_testing_theory>What is testing</Basic_testing_theory>
+	<Basic_testing_theory>Bug reports</Basic_testing_theory>
+	<Basic_testing_theory>Test documentation</Basic_testing_theory>
+	<Basic_testing_theory>SDLC</Basic_testing_theory>
+	<Basic_testing_theory>STLC</Basic_testing_theory>
+	<Basic_testing_theory>Design Test Techniques</Basic_testing_theory>
+	<HTTP>Methods</HTTP>
+	<HTTP>Status code</HTTP>
+	<HTTP>Structure of requests and responses</HTTP>
+	<Data_exchange_formats>JSON</Data_exchange_formats>
+	<Data_exchange_formats>XML</Data_exchange_formats>
+	<API_testing>Postman</API_testing>
+	<API_testing>JS</API_testing>
+	<API_testing>Autotests API</API_testing>
+	<Traffic_sniffing>Charles</Traffic_sniffing>
+	<Traffic_sniffing>Fiddler</Traffic_sniffing>
+	<Dev_Tools>Google Chrome</Dev_Tools>
+	<Dev_Tools>Firefox</Dev_Tools>
+	<VPN>How it works</VPN>
+	<VPN>How to use it</VPN>
+	<VPN>Tool options</VPN>
+	<Mobile_testing>iOS</Mobile_testing>
+	<Mobile_testing>Android</Mobile_testing>
+	<Mobile_testing>Guidelines</Mobile_testing>
+	<Mobile_testing>XCode</Mobile_testing>
+	<Mobile_testing>Android Studio</Mobile_testing>
+	<Mobile_testing>ADB</Mobile_testing>
+	<Terminal>GitBash</Terminal>
+	<SQL>The basics</SQL>
+	<SQL>Postgres</SQL>
+	<SQL>Redis</SQL>
+	<Load_testing>Jmeter</Load_testing>
+	<Python>The basics</Python>
+	<Python>Creating a client server application</Python>
+</root>
