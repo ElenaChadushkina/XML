@@ -6,8 +6,9 @@
 4. Добавить файл под гит. `git add new.xml`
 5. Закоммитить файл. `git commit -m "XML"`
 6. Отправить файл на внешний GitHub репозиторий. `git push`
-7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.vim new.xml
-  <pre><?xml version="1.0" encoding="UTF-8" ?>
+7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.  `vim new.xml`--> `i`
+```
+<?xml version="1.0" encoding="UTF-8" ?>
 <person>
 	<First name>Lena</First name>
 	<Middle name>Mikhailovna</Middle name>
@@ -15,11 +16,14 @@
 	<Age>32</Age>
 	<Pet>1</Pet>
 	<Salary>1000$</Salary>
-</person></pre>
+</person>
+```
+<pre>Esc --> :wq </pre>
 9. Отправить изменения на внешний репозиторий. `git add new.xml`-->`git commit -m "XML new"`-->` git push `
 10. Создать файл preferences.xml `touch preferences.xml`
-11. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. `vim preferences.xml`--> i
-<pre><?xml version="1.0" encoding="UTF-8" ?>
+11. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. `vim preferences.xml`--> `i`
+```
+<?xml version="1.0" encoding="UTF-8" ?>
 <root>
 	<Favorite_movie>The_Pursuit of Happyness</Favorite_movie>
 	<Favorite_series>Game of Thrones</Favorite_series>
@@ -28,10 +32,11 @@
 	<Favorite_food>grilled cheese</Favorite_food>
 	<Favorite_time_year>Summer</Favorite_time_year>
 	<Country>Indonesia</Country>
-</root></pre>
-`Esc` --> `:wq `
+</root>
+```
+<pre>`Esc --> :wq </pre>
 12. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML `vim sklls.xml`--> `i`
-<?xml version="1.0" encoding="UTF-8" ?>
+```<?xml version="1.0" encoding="UTF-8" ?>
 <root>
 	<Basic_testing_theory>What is testing</Basic_testing_theory>
 	<Basic_testing_theory>Bug reports</Basic_testing_theory>
@@ -68,12 +73,14 @@
 	<Python>The basics</Python>
 	<Python>Creating a client server application</Python>
 <root>
-`Esc` --> `:wq`
+```
+<pre>Esc --> :wq</pre>
 13. Сделать коммит в одну строку. ` git add . && git commit -m "prefernces and skills"`
 14. Отправить сразу 2 файла на внешний репозиторий. `git push`
 15. На веб интерфейсе создать файл bug_report.xml. `Add file`--> `Create new file`
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.`Commit changes`
 17. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+```
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
 	<Bug-ID>01</Bug-ID>
@@ -93,5 +100,6 @@
 	<Status>New</Status>
 	<Author>Чадушкина Елена</Author>
 </root>
+```
 18. Сделать Commit changes (сохранить) изменения на веб интерфейсе. `Commit changes`
 19. Синхронизировать внешний и локальный репозиторий XML `git pull`
