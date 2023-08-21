@@ -1,7 +1,7 @@
 # XML
 
 1. Создать внешний репозиторий c названием XML. `Repositories --> New`
-2. Клонировать репозиторий XML на локальный компьютер. `git clone `
+2. Клонировать репозиторий XML на локальный компьютер. `git clone https://github.com/ElenaChadushkina/XML.git`
 3. Внутри локального XML создать файл “new.xml”. `cd XML && touch new.xml`
 4. Добавить файл под гит. `git add new.xml`
 5. Закоммитить файл. `git commit -m "XML"`
@@ -79,7 +79,7 @@
 14. Отправить сразу 2 файла на внешний репозиторий. `git push`
 15. На веб интерфейсе создать файл bug_report.xml. `Add file`--> `Create new file`
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.`Commit changes`
-17. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+17. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. `Edit this file`
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
