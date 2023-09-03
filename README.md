@@ -72,7 +72,7 @@
 	<Load_testing>Jmeter</Load_testing>
 	<Python>The basics</Python>
 	<Python>Creating a client server application</Python>
-<root>
+</root>
 ```
 <pre>Esc --> :wq</pre>
 13. Сделать коммит в одну строку. ` git add . && git commit -m "prefernces and skills"`
